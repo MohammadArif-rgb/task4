@@ -1,0 +1,102 @@
+html code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A.P.J Abdul kalam</title>
+        <link rel="stylesheet" href="task4style.css">
+    </head>
+<body>
+    <div class="main">
+    <div class="container">
+        <div class="main-container">
+            
+            <img src="https://tse2.mm.bing.net/th?id=OIF.pK6ywRRCCM2ATISV%2fXokjQ&pid=Api&P=0&h=220" alt="chatrapati-sivaji">
+        
+            <div>
+                <h1>CHATRAPATHI SHIVAJI</h1>
+                <h4>1630-1680</h4>
+            </div>
+        </div>
+        <div class="content">
+            <h1>A Warrior</h1>
+            <p>
+                Shivaji offered passage and his service to the Mughal emperor Aurangzeb to invade the declining Sultanate of Bijapur.
+                 After Aurangzeb's departure for the north due to a war of succession, Shivaji conquered territories ceded by Bijapur 
+                 in the name of the Mughals.[8]: 63  Following his defeat at the hands of Jai Singh I in the Battle of Purandar,
+                  Shivaji entered into vassalage with the Mughal empire, assuming the role of a Mughal chief and was conferred
+                   with the title of Raja by Aurangzeb.[9] He undertook military expeditions on behalf of the Mughal empire for 
+                   a brief duration.[10] Over the course of his life, Shivaji engaged in both alliances and hostilities with the Mughal Empire, 
+                   the Sultanate of Golconda, the Sultanate of Bijapur and the European colonial powers.
+            </p>
+            <div>
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+css code
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    background-color: gainsboro;
+}
+.container{
+    height: 100vh;
+    width: 1000px;
+    background-color: aquamarine;
+    border: 10px solid gray;
+    margin-left: 400px;
+}
+
+.main-container{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main-container img{
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 6px black;
+    margin-left: 200px;
+}
+
+.main-container img:hover{
+    box-shadow: 4px 4px 10px red;
+}
+
+.main-container div {
+    margin-left: -90px;
+    text-align: end;
+}
+
+.main-container div h1 {
+    
+    transition: color 2s ease;
+}
+
+.main-container h1:hover {
+    color: #ff6347; /* Change color on hover (example: tomato) */
+}
+
+.content{
+    padding: 20px;
+    line-height: 2;
+    font-weight: normal;
+    font-size: medium;
+}
